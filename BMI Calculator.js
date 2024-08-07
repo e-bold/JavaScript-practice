@@ -2,7 +2,7 @@
 
 function bmiCalc (w, h) {
 
-    console.log(Math.round(w/(Math.pow(h, 2))));
+    return(Math.round(w/(Math.pow(h, 2))));
 };
 
 
