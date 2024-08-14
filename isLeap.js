@@ -8,8 +8,10 @@ function isLeap(year) {
             return false;
         }
         return  true;
+    }else{
+        return false;
     }    
 }
 
 
-console.log(isLeap(2100));
+console.log(isLeap(1998));
